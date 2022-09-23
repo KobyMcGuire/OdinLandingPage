@@ -11,15 +11,49 @@ body {
     color: #f9faf8;
     background-color: #1f2937;
     display: flex;
-    justify-content: space-evenly;
     align-items: center;
     height: 50px;
 }
 
+.left-header {
+    margin-left: 550px;
+    margin-right: 325px;
+}
+
 .subheader {
-    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
     color: #f9faf8;
     background-color: #1f2937;
+}
+
+h1 {
+    margin: 0;
+}
+
+.subheader-text {
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    max-width: 200px;
+    margin-right: 100px;
+}
+
+.awesome-subtext {
+    color: #f9faf8d8;
+    width: 325px;
+}
+
+.placeholder {
+    height: 150px;
+    width: 400px;
+    margin-left: 100px;
+    background-color: #e5e7eb44;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 .main-one {
@@ -54,4 +88,8 @@ ul {
 
 a {
     text-decoration: none;
+}
+
+button {
+    align-self: baseline;
 }
