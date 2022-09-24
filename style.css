@@ -6,6 +6,7 @@ body {
     flex-direction: column;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+/* Top portion of website */
 
 .header {
     color: #f9faf8;
@@ -56,9 +57,45 @@ h1 {
     justify-content: center;
 }
 
+/* End Top, begin Main One */
+
 .main-one {
-    height: 200px;
+    height: 300px;
+    display: flex;
+    gap: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
+
+.container {
+    display: flex;
+    gap: 50px;
+}
+
+.img-column {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+.box {
+    height: 125px;
+    width: 125px;
+    border: 3px #3882F6;
+    border-style: solid;
+    border-radius: 10px;
+    color: #3882F6;
+}
+
+.card {
+    width: 140px;
+    color: rgba(1, 11, 12, 0.712);
+}
+
+
+/*End Main One, begin Main Two */
 .main-two {
     height: 200px;
     background-color: #e5e7eb;
@@ -91,5 +128,13 @@ a {
 }
 
 button {
-    align-self: baseline;
+    width: 100px;
+    height: 25px;
+    border: none;
+    border-radius: 10px;
+}
+
+.button-one {
+    color: #e5e7eb;
+    background-color: #3882F6;
 }
