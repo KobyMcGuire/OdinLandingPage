@@ -90,16 +90,37 @@ h1 {
 }
 
 .card {
+    text-align: center;
     width: 140px;
     color: rgba(1, 11, 12, 0.712);
 }
 
 
-/*End Main One, begin Main Two */
+/* End Main One, begin Main Two */
 .main-two {
-    height: 200px;
+    height: 250px;
     background-color: #e5e7eb;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
+
+.quote {
+    width: 500px;
+    font-size: x-large;
+    color: rgb(43, 42, 42);
+}
+
+.speaker {
+    width: 400px;
+    font-size: large;
+    display: flex;
+    justify-content: end;
+}
+
+
+/* End Main Two, begin Main Three */
 .main-three {
     height: 100px;
     margin-bottom: 0;
