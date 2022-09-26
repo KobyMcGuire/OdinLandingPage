@@ -122,9 +122,46 @@ h1 {
 
 /* End Main Two, begin Main Three */
 .main-three {
-    height: 100px;
+    height: 200px;
     margin-bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
+.banner {
+    background-color: #3882F6;
+    border-radius: 10px;
+    width: 700px;
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    gap: 30px;
+    color: rgba(255, 255, 255, 0.801);
+}
+
+.left-banner {
+    font-size: small;
+    padding: 30px;
+}
+
+.right-banner {
+    padding: 30px;
+}
+
+.banner-button {
+    border: white 2px;
+    border-radius: 10px;
+    border-style: solid;
+    background-color: #3882F6;
+    color: #e5e7eb;
+    height: 30px;
+
+}
+
+
+/* End Main Three */
+
 
 .footer {
     margin-top: auto;
@@ -151,11 +188,11 @@ a {
 button {
     width: 100px;
     height: 25px;
-    border: none;
     border-radius: 10px;
 }
 
 .button-one {
     color: #e5e7eb;
     background-color: #3882F6;
+    border: none;
 }
